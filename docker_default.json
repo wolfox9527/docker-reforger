@@ -21,11 +21,6 @@
 		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
 		"maxPlayers": 64,
 		"visible": true,
-		"supportedPlatforms": [
-			"PLATFORM_PC",
-			"PLATFORM_XBL",
-			"PLATFORM_PSN"
-		],
 		"gameProperties": {
 			"serverMaxViewDistance": 1600,
 			"serverMinGrassDistance": 0,
@@ -33,7 +28,9 @@
 			"disableThirdPerson": false,
 			"fastValidation": true,
 			"battlEye": true,
-			"missionHeader": {}
+			"VONDisableUI": false,
+			"VONDisableDirectSpeechUI": false,
+			"VONCanTransmitCrossFaction": false
 		},
 		"mods": []
 	}
